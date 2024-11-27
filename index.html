@@ -9,47 +9,67 @@
 <body>
   <div>
    <img src="Images/logo.webp" alt="logo" class="logo">
-   <nav class="topnav">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-   </nav>
+   <header>
+    <nav class="topnav">
+      <ul class="nav-items">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+     </nav>
+   </header>
   </div>
-  <section class="hero-section">
-    <h1>Fun Starts Here, Right Now</h1>
-    <p>Chenza Agency is your one-stop shop for all your brand growth needs. <br>Do you want to see you brand go farther? It is a matter of joining the movement on <br> Chenza!</p>
-    <button>Sign Up</button>
-    <img class="hero-image" src="Images/hero.jpg" alt="Image of hand-drawn graphs and tables">
-  </section>
+
+  <div class="hero-section">
+    <div class="hero-content">
+      <h1>Fun Starts Here, Right Now</h1>
+      <p>Chenza Agency is your one-stop shop for all your brand growth needs. <br>Do you want to see you brand go farther? It is a matter of joining the movement on <br> Chenza!</p>
+      <button class="signup-button">Sign Up</button>
+    </div>
+    <div class="hero-image">
+      <img src="Images/hero.jpg" alt="Image of hand-drawn graphs and tables">
+    </div>
+  </div>
+
   <section class="flexbox-container">
-    <h2>What We Do</h2>
+    <h2 class="about">What We Do</h2>
 
-    <div class="design-image">
-      <img src="Images/design.jpg" alt="Design">
-      <p>We help you come up with an idea and design it.</p>
+    <div class="container">
+      <div class="design">
+        <img class="image" src="Images/design.jpg" alt="Design">
+        <p>We help you come up with an idea and design it.</p>
+      </div>
+  
+      <div class="develop">
+        <img class="image" src="Images/develop.jpg" alt="Image showing some code on a computer">
+        <p>Our development team makes your idea a reality through development.</p>
+      </div>
+  
+      <div class="analytics">
+        <img class="image" src="Images/analytics.jpg" alt="Statistical figures">
+        <p>Upon release, we monitor the adoption and usage of your app in real-time.</p>
+      </div>
+      
+      <div class="cybersecurity">
+        <img class="image" src="Images/cybersecurity.jpg" alt="Locks on a laptop">
+        <p>To secure the app, we integrate security measures.</p>
+      </div>
     </div>
-
-    <div class="develop-image">
-      <img src="Images/develop.jpg" alt="Image showing some code on a computer">
-      <p>Our development team makes your idea a reality through development.</p>
-    </div>
-
-    <div class="analytics-image">
-      <img src="Images/analytics.jpg" alt="Statistical figures">
-      <p>Upon release, we monitor the adoption and usage of your app in real-time.</p>
-    </div>
-    
-    <div class="cybersecurity-image">
-      <img src="Images/cybersecurity.jpg" alt="Locks on a laptop">
-      <p>To secure the app, we integrate security measures.</p>
-    </div>
-    
   </section>
+
   <section class="quote">
     <blockquote cite="https://www.brainyquote.com/quotes/arvind_gupta_833454?src=t_software">
         Biology is the most powerful technology ever created. DNA is software, protein are hardware, cells are factories.
     </blockquote>
     <p>- Arvind Gupta</p>
-  </section>  
+  </section> 
+  
+  <section class="call-to-action">
+    <h3>Call to Action! Its time!</h3>
+    <p>Sign up for our services by clicking that button right over there!</p>
+    <button class="cta-button">Sign Up</button>
+  </section>
+
+  <footer class="footer">Copyright &copy; Chenza Agency 2024.</footer>
 </body>
 </html>
